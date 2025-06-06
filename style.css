@@ -12,3 +12,13 @@ div{
 .parent{
     color:blue;
 }
+/* * {
+  outline: 2px solid black;
+} */
+
+.b1{
+    padding:50px;
+    outline: 2px solid blue;
+    display:inline-block;
+    margin:10px;
+}
