@@ -4,3 +4,11 @@ div{
 .Alert-Text{
     color:red;
 }
+
+.parent {
+    color: red;
+}
+
+.parent{
+    color:blue;
+}
