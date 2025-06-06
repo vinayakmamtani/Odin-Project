@@ -1,4 +1,11 @@
-div{
+:root{
+    --dark: black;
+    --light: white;
+    --slate:grey;
+    --primary:red;
+}
+
+/* div{
     color: green;
 }
 .Alert-Text{
@@ -16,9 +23,26 @@ div{
   outline: 2px solid black;
 } */
 
-.b1{
+/* .b1{
     padding:50px;
     outline: 2px solid blue;
     display:inline-block;
     margin:10px;
+} */ */
+
+.flex-container{
+    display: flex;
+     flex-wrap: nowrap;
+    background-color: var(--primary);
+    padding:50px;
+    margin:10px;
+    
+}
+
+.flex-container div{
+    background: var(--dark);
+    border:2px solid var(--primary);
+    height:110px;
+    width:100px
+        
 }
